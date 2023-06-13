@@ -82,7 +82,15 @@ class Player{
 
 	}
 
-    play(){
+    hide() {
+		this.driver.hide();
+	}
+
+	show() {
+		this.driver.show();
+	}	
+	
+	play(){
     	this.skip('backwards');
         this.driver.play();
     }
