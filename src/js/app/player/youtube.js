@@ -82,6 +82,16 @@ export default class YOUTUBE {
         }        
         
     }
+        
+    hide() {
+        this.element.style.position = 'absolute';
+        this.element.style.left = '-9999px';
+    }
+
+show() {
+        this.element.style.position = 'static';
+        this.element.style.left = '0';
+    }
     play(){
         this._ytEl.playVideo();
     }
