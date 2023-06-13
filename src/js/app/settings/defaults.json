@@ -11,7 +11,9 @@
             "addTimestamp": ["mod+j"],
             "bold": ["mod+b"],
             "italic": ["mod+i"],
-            "underline": ["mod+u"]
+            "underline": ["mod+u"],
+            "hide": ["mod+h"],
+            "show": ["mod+q],
         }
     }
 }
